@@ -1,0 +1,14 @@
+Source: ceibal-pam-auth
+Section: admin
+Priority: optional
+Maintainer: Santiago Aguiar <santiago.aguiar@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/ceibal-tatu/ceibal-pam-auth.git
+Vcs-Browser: https://github.com/ceibal-tatu/ceibal-pam-auth/
+
+Package: ceibal-pam-auth
+Architecture: all
+Depends: ${misc:Depends}, libpam-runtime (>= 1.1.2)
+Description: Opciones de Autenticación Ceibal
+ Configura PAM para entornos Ceibal.
